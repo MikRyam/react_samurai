@@ -1,11 +1,12 @@
 .header {
+  width: 100%;
   grid-area: h;
   background-color: teal;
 
   padding: 5px 30px;
 
-  position: sticky;
-  top: 0;
+  position: fixed;
+  /*top: 0;*/
 
 }
 

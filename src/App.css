@@ -5,7 +5,7 @@
   grid-template-areas: 
   'h h'
   'n c';
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 63px 1fr;
   /* grid-template-columns: 2fr 10fr; */
   grid-template-columns: 200px 1fr;
   /* gap: 10px; */
@@ -14,8 +14,13 @@
 }
 
 .app-content-wrapper {
+  height: 100%;
   grid-area: c;
   background-color: beige;
 
   /*overflow: scroll;*/
+}
+
+textarea:focus, input:focus{
+  outline: none;
 }

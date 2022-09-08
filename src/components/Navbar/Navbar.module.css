@@ -10,6 +10,10 @@
   /*position: fixed; !* Фиксированное положение *!*/
   /*left: 0; !* Расстояние от правого края окна браузера *!*/
   /*top: 60px;*/
+  position: fixed;
+  top: 63px;
+  width: 200px;
+  height: -webkit-fill-available;
 
 
 }

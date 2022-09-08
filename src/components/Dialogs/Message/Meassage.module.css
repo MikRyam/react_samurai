@@ -1,35 +1,11 @@
-.dialogs {
-    padding: 50px 0 0 50px;
-    display: grid;
-    grid-template-columns: 2fr 10fr ;
-}
-
-.dialog_items {
-
-}
-
-.dialog_items a .active {
-    color: darkgreen;
-}
-
-.dialog {
-    padding: 10px;
-}
-
-.dialog a {
-    font-size: 18px;
-    color: black;
-    text-decoration: none;
-}
-
-.dialog .active_dialog {
-    color: teal;
-}
-
-.messages {
-
-}
-
 .message {
+    width: fit-content;
+    max-width: 40%;
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: cornsilk;
+    background-color: teal;
+    border-radius: 30px;
 
+    word-wrap: break-word;
 }

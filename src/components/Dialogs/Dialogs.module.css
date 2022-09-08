@@ -1,10 +1,23 @@
 .dialogs {
-    padding: 50px 0 0 50px;
+    height: 100%;
+
     display: grid;
-    grid-template-columns: 2fr 10fr ;
+    grid-template-columns: 250px 1fr ;
+}
+
+.dialogs_wrapper {
+    padding-top: 40px;
+    padding-left: 10%;
+    background-color: palegoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /*height: -webkit-fill-available;*/
 }
 
 .dialog_items {
+
 
 }
 
@@ -26,10 +39,43 @@
     color: teal;
 }
 
+.messages_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .messages {
+    padding: 0 0 20px 40px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.message_input_block {
+    height: fit-content;
+    padding: 10px 0 20px 20px;
+    background-color: palegoldenrod;
+    border-left: 1px solid beige;
+
+    display: flex;
+}
+
+.message_input_block textarea {
+    /*width: 80%;*/
+    min-height: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    line-height: 20px;
+    font-size: 16px;
+    color: dimgrey;
+    border: none;
+    border-radius: 30px;
+
+    overflow: hidden;
+    resize: none;
+    height: fit-content;
 
 }
 
-.message {
-
-}
