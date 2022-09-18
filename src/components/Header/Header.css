@@ -1,16 +1,26 @@
 .header {
   width: 100%;
-  grid-area: h;
+  height: 60px;
+  padding: 5px 0;
+  /*grid-area: h;*/
   background-color: teal;
 
-  padding: 5px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   position: fixed;
   /*top: 0;*/
-
 }
 
+.header-wrapper {
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .header img {
   width: 50px;
-  background-color: teal;
+  height: 50px;
+  /*background-color: teal;*/
 }

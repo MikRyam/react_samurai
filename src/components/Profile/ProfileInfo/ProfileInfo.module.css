@@ -4,10 +4,37 @@
   max-height: 250px;
 }
 
-.descriptionBlock {
-  padding: 20px 0 0 50px;
+.profileBlock {
+  padding: 15px 0 0 30px;
+}
+
+.profileMain {
+  display: flex;
+  gap: 30px
 }
 
 .profileInfo .avatar {
-  width: 80px;
+  width: 160px;
+}
+
+.descriptionBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMe {
+  font-size: 20px;
+}
+
+.job {
+  font-size: 18px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacts {
+  display: flex;
+  gap: 15px;
 }

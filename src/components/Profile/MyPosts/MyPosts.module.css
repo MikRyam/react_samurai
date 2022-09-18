@@ -1,7 +1,39 @@
 .posts_area {
-    padding: 30px;
+    padding: 15px 30px;
+    max-width: 800px;
 }
 
 .posts {
     margin-top: 10px;
+}
+.addPostBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.posts_area textarea {
+    /*width: 99%;*/
+    /*min-height: 30px;*/
+    /*padding-top: 15px;*/
+    padding: 2%;
+    line-height: 18px;
+    font-size: 15px;
+    color: dimgrey;
+    border: none;
+    border-radius: 8px;
+
+    /*overflow: hidden;*/
+    resize: none;
+    /*height: fit-content;*/
+}
+
+.posts_area .addPostButton {
+    margin-top: 8px;
+    background-color: teal;
+    align-self: flex-end;
+
+}
+.posts_area .addPostButton:hover {
+    background-color: darkcyan;
+
 }

@@ -1,7 +1,7 @@
 .nav {
   padding-top: 40px;
 
-  grid-area: n;
+  /*grid-area: n;*/
   background-color: gold;
 
   display: flex;
@@ -10,9 +10,11 @@
   /*position: fixed; !* Фиксированное положение *!*/
   /*left: 0; !* Расстояние от правого края окна браузера *!*/
   /*top: 60px;*/
-  position: fixed;
-  top: 63px;
-  width: 200px;
+  /*position: fixed;*/
+  /*top: 70px;*/
+  width: 18%;
+  min-width: 115px;
+  max-width: 200px;
   height: -webkit-fill-available;
 
 

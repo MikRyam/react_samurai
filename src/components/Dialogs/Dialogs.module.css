@@ -1,13 +1,18 @@
 .dialogs {
     height: 100%;
+    width: 100%;
 
-    display: grid;
-    grid-template-columns: 250px 1fr ;
+    display: flex;
+
+    /*display: grid;*/
+    /*grid-template-columns: 250px 1fr ;*/
 }
 
 .dialogs_wrapper {
-    padding-top: 40px;
-    padding-left: 10%;
+    padding: 40px 20px;
+    /*padding-top: 40px;*/
+    /*padding-left: 10%;*/
+    max-width: 180px;
     background-color: palegoldenrod;
     display: flex;
     flex-direction: column;
@@ -40,12 +45,13 @@
 }
 
 .messages_wrapper {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .messages {
-    padding: 0 0 20px 40px;
+    padding: 0 40px 20px;
     height: 100%;
 
     display: flex;
@@ -54,6 +60,7 @@
 }
 
 .message_input_block {
+    width: 100%;
     height: fit-content;
     padding: 10px 0 20px 20px;
     background-color: palegoldenrod;
@@ -61,21 +68,34 @@
 
     display: flex;
 }
-
+.message_input_stack {
+    width: 70%;
+    height: fit-content;
+}
 .message_input_block textarea {
-    /*width: 80%;*/
-    min-height: 30px;
-    padding-top: 15px;
-    padding-left: 15px;
-    line-height: 20px;
-    font-size: 16px;
+    width: 100%;
+    /*height: 100%;*/
+    /*min-height: 30px;*/
+    padding: 5px 10px 5px 15px;
+    /*padding-top: 15px;*/
+    /*padding-left: 20px;*/
+    line-height: 18px;
+    font-size: 15px;
     color: dimgrey;
     border: none;
-    border-radius: 30px;
+    border-radius: 12px 0 0 12px;
 
     overflow: hidden;
     resize: none;
-    height: fit-content;
+    /*height: fit-content;*/
 
 }
 
+.message_input_block Button {
+    background-color: teal;
+
+}
+.message_input_block Button:hover {
+    background-color: darkcyan;
+
+}
